@@ -10,7 +10,7 @@ chrome.alarms.onAlarm.addListener(() => {
         console.log("Closing tab: " + tab.url);
         const openedTime = Date.now() - tab.lastAccessed; // Calculate how long the tab has been open.
         console.log("Tab has been open for " + openedTime + " milliseconds.")
-        if (openedTime > 1 * 60 * 1000) { // 5 minutes in milliseconds.
+        if (openedTime > 5 * 60 * 1000) { // 5 minutes in milliseconds.
           console.log("Tab has been open for " + openedTime + " milliseconds. Closing tab.");
           chrome.tabs.remove(tab.id); // Close the tab.
         }
