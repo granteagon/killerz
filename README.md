@@ -1,5 +1,5 @@
 # killerz
-Super simple Chrome extension to automatically close left over zoom meeting tabs after 5 minutes.
+Super simple Chrome extension to automatically close left over post-meeting zoom meeting tabs after 5 minutes.
 
 ![Super simple chrome extension to close zoom tabs](https://raw.githubusercontent.com/granteagon/killerz/main/images/icon128.png)
 
